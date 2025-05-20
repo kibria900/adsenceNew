@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme{
+
+    --color-navber : #000000;
+    --color-bannartwo :#F5F5F5;    
+    --color-bannarone :#fff;
+    --color-textnew :#000;
+    
+}
+
+@layer base{
+
+
+}
+
+@layer components{
+
+.container1{
+    @apply px-[200px]
+}
+
+.container2{
+    @apply px-[40px]
+}
+
+}
+
+@layer utilities{
+
+
+}
