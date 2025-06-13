@@ -3,7 +3,7 @@ import Google from '../assets/Google.png'
 
 const NavBar = () => {
   return (
-  <div className="menu fixed top-0 left-0 w-full bg-[#e5e7e9] shadow-md z-50 px-6 py-3 flex items-center justify-between ">
+  <div className="menu fixed top-0 left-0 w-full bg-[#e5e7e9] shadow-md z-50 px-6 py-3 flex items-center justify-between">
   
   <div className="flex items-center gap-2">
     <img src={Google} alt="logo" className="h-10" />
